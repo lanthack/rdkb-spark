@@ -5,6 +5,16 @@ This is pretty simple, Basically I just dowloaded data from [Microsoft's Academi
 ### How big is the data?
 There were roughly 530 million papers in the data, so pretty big. A lot of these operations took quite some time on the smallish cluster I was using.
 
+### Steps
+1. Download data
+2. Unzip data
+3. Import data into the hdfs (I did this by ssh into the master server
+4. Run the python script
+5. Wait a long time. (Presumably less with more servers)
+
+### Results
+Well, I was able to do some 'big data'. There is no real analysis to speak of - it's just basic SQL-like operations on a very large dataset. I am anxious to do some more complicated things. For example, with this dataset I'd like to build a author citation network, and then find min cuts. This is the first project I've done that costs money for server resources, so I will need to be a little more solid on my work before shelling out the dough.
+
 Output from the last step:
 ```
 [
