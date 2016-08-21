@@ -6,6 +6,7 @@ This is pretty simple, Basically I just dowloaded data from [Microsoft's Academi
 There were roughly 530 million papers in the data, so pretty big. A lot of these operations took quite some time on the smallish cluster I was using.
 
 Output from the last step:
+```
 [
 (2144634347.0, (u'Molecular cloning : a laboratory manual', u'molecular cloning a laboratory manual', u'1989', u'1989', u'', u'BioScience', u'bioscience', u'0742FAC4', u'', u'9004')), 
 (2100837269.0, (u'Cleavage of Structural Proteins during the Assembly of the Head of Bacteriophage T4', u'cleavage of structural proteins during the assembly of the head of bacteriophage t4', u'1970', u'1970/08/15', u'10.1038/227680a0', u'Nature', u'nature', u'08364228', u'', u'10099')), 
@@ -18,3 +19,4 @@ Output from the last step:
 (2107277218.0, (u'Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2 \u2212\u0394\u0394CT Method', u'analysis of relative gene expression data using real time quantitative pcr and the 2 \u03b4\u03b4ct method', u'2001', u'2001', u'10.1006/meth.2001.1262', u'Methods', u'methods', u'04621F41', u'', u'12633')), 
 (2028556299.0, (u'Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method.', u'analysis of relative gene expression data using real time quantitative pcr and the 2 delta delta c t method', u'2001', u'2001/12', u'10.1006/meth.2001.1262', u'Methods', u'methods', u'04621F41', u'', u'10883'))
 ]
+```
